@@ -39,10 +39,9 @@
     right: var(--floating-history-position-right);
     left: var(--floating-history-position-left);
 
-    transform: translateX(50%) !important;
     z-index: 10;
-  
-    transform: translateY(12%) !important;
+
+    transform: translateX(50%) translateY(12%) !important;
   
     border-radius: var(--zen-border-radius) !important;
 
